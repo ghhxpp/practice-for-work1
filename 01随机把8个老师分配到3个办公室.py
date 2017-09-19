@@ -1,4 +1,4 @@
-# coding :utf-8 
+# coding:utf-8 
 
 import random
 
@@ -13,7 +13,9 @@ def t_to_o(t,o):
 print(t_to_o(8, 3))
 
 def t_to_o2():
+    # office = [[]] * 3
     office = [[],[],[]]
+    print(office)
     teachers = ['a','b','c','d','e','f','g','h']
     for teacher in teachers:
         index = random.randint(0,2)
