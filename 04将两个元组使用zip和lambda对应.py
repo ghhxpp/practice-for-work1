@@ -4,5 +4,10 @@
 
 a = (('a'),('b'))
 b = (('c'),('d'))
+print(zip(a,b))
+d = zip(a,b)
+print(zip(*d))
 c = map(lambda x:{x[0]:x[1]},zip(a,b))
 print(c)
+
+
