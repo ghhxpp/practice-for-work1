@@ -7,3 +7,10 @@ a = a.replace(":","=")
 a = a.replace("|",",")
 a = eval("dict(%s)" %a)
 print(a)
+
+b = "k:1|k1:2|k2:3|k3:4"
+dit = {}
+for i in b.split("|"):
+    key,val = i.split(":")
+    dit[key] = val   
+print(dit)
